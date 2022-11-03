@@ -1,0 +1,33 @@
+.container-img-parallax{
+    background-image: url("1920x1000.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    padding: 30px 0px;
+}
+.container-portion .content{
+    text-align: right;
+}
+.container-portion .content .text1{
+    font-size: 50px;
+    transform: translateX(-6.25%);
+    font-family: Arial, sans-serif;
+}
+.container-portion .content .text2{
+    font-size: 50px;
+    transform: translateX(-8%);
+    font-family: Arial, sans-serif;
+}
+.container-portion .content .number{
+    font-size: 100px;
+    font-weight: 400;
+    transform: translateX(-8.5%);
+    font-family: Arial, sans-serif;
+}
+.container-portion .content .text3{
+    font-size: 25px;
+    margin-right: 36px;
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,104 @@
+
+#container-burger{
+    position: fixed;
+    top: 26px;
+    right: 30px;
+    display: none;
+    cursor: pointer;
+}
+#container-burger.animation .burger:nth-child(1){
+    transform: rotate(-135deg);
+    top: 8px;
+    position: absolute;
+}
+#container-burger.animation .burger:nth-child(2){
+    opacity: 0;
+    transition: 0s;
+}
+#container-burger.animation .burger:nth-child(3){
+    transform: rotate(135deg);
+    top: 8px;
+    position: absolute;
+}
+.burger{
+    background-color: rgb(15, 174, 214);
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 5px;
+    transform-origin: center;
+    transition: .5s ease-in-out;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+.menu{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 40% auto auto auto auto auto auto auto;
+    font-size: 21px;
+    font-weight: 400;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    position: fixed;
+    background-color: transparent;
+    transition: .5s;
+    z-index: 9;
+}
+.navbar-color{
+    background-color: blueviolet;
+    transition: .5s;
+}
+.menu .content{
+    padding: 25px 0px;
+}
+.menu .text{
+    text-decoration: none;
+    color: white;
+    transition: .10s;
+}
+.menu .text:hover{
+    border-bottom: 3px solid rgb(15, 174, 214);
+    transition: .10s;
+}
+.img-menu{
+    width: 100%;
+    height: 100vh;
+}
+.container-logo{
+    z-index: 252;
+    position: fixed;
+}
+.container-logo .logo{
+    width: 200px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+.container-logo .logo .container-name .name1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgb(15, 174, 214);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 5px;
+}
+.container-logo .logo .container-name .name2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgb(15, 174, 214);
+    text-transform: uppercase;
+    margin-top: -11px;
+    margin-right: 3px;
+}

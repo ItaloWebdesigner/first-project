@@ -1,0 +1,134 @@
+.container-address{
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin-top: 50px;
+    background-color: blueviolet;
+    padding: 35px 0px;
+    text-align: center;
+}
+.container-address .content .text{
+    font-size: 25px;
+    color: white;
+    margin-top: 5px;
+}
+.container-address .content .fa-phone{
+    font-size: 45px;
+    color: white;
+}
+.container-address .content .fa-map-marker{
+    font-size: 45px;
+    color: white;
+}
+.container-address .content .fa-envelope{
+    font-size: 39px;
+    color: white;
+}
+.container-img-footer{
+    background-image: url("1920x1000.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 2px solid blueviolet;
+}
+.container-footer{
+    width: 100%;
+    height: auto;
+    display: grid;
+    background-color: rgba(138, 43, 226, 0.50);
+}
+.container-footer .content{
+    text-align: center;
+    margin: 30px 25px;
+}
+.container-footer .content .name1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.container-footer .content .name2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-transform: uppercase;
+    margin-top: -11px;
+    margin-right: 3px;
+}
+.container-footer .content .container-about .title{
+    font-size: 25px;
+    color: black;
+}
+.container-footer .content .container-about .text{
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+.container-footer .content .content-logo{
+    position: relative;
+}
+.container-footer .content .container-links .title{
+    font-size: 25px;
+    color: black;
+}
+.container-footer .content .container-links .content-links{
+    font-size: 19px;
+    text-decoration: none;
+    display: grid;
+    margin-top: 10px;
+}
+.container-footer .content .container-links .content-links .bar-link{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+.container-footer .content .container-links .content-links .links{
+    margin: 16px 0px 5px 0px;
+}
+.container-footer .content .container-links .content-links .links .link{
+    text-decoration: none;
+    color: black;
+    transition: .25s;
+}
+.container-footer .content .container-links .content-links .links .link:hover{
+    color: rgb(15, 174, 214);
+    transition: .25s;
+}
+.container-copy{
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.container-footer .content:hover .bar-footer1{
+    transform: scaleX(150%);
+    transition: .5s;
+}
+.container-footer .content:hover .bar-footer2{
+    transform: scaleX(147%);
+    transition: .5s;
+}
+.bar-footer1{
+    position: relative;
+    left: 42%;
+    width: 17%;
+    height: 3px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    transition: .5s;
+}
+.bar-footer2{
+    position: relative;
+    left: 46%;
+    margin-top: 5px;
+    width: 9%;
+    height: 3px;
+    transition: .5s;
+    background-color: rgb(15, 174, 214);
+}
