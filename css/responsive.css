@@ -1,9 +1,5 @@
 /* nav */
 @media screen and (max-height:570px) and (min-height:480px) {
-    .menu{
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 15% auto auto auto auto auto auto auto;
-    }
     .carousel-item{
         height: 100vh;
     }
@@ -18,10 +14,6 @@
     .img-menu{
         height: 140vh;
     }
-    .menu{
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 20% auto auto auto auto auto auto auto;
-    }
 }
 @media screen and (max-height:399px) and (min-height:200px) {
     .carousel-item{
@@ -29,11 +21,6 @@
     }
     .img-menu{
         height: 180vh;
-    }
-    .menu{
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 20% auto auto auto auto auto auto auto;
-        overflow-y: scroll;
     }
 }
 @media screen and (min-width:1101px) {
@@ -57,22 +44,23 @@
     }
     .menu{
         width: 40%;
-        height: 100vh;
+        height: 570px;
         grid-template-columns: 100%;
+        grid-template-rows: 20% auto auto auto auto auto auto auto;
         position: fixed;
         transform: translateX(-120%);
         background-color: blueviolet;
         transition: .5s ease-in-out;
         z-index: 9;
+        overflow: scroll;
     }
     .menu .content{
-        padding: 10px 0px;
+        padding: 5px 0;
     }
     .menu .content .text{
         color: white;
         border-bottom: solid 3px rgb(15, 174, 214);
-        padding-bottom: 2px;
-        transform: translateY(20px);
+        padding-bottom: 3px;
     }
     input[type="checkbox"]:checked ~ .menu {
         transform: translateX(0%);
@@ -97,11 +85,13 @@
         width: 50%;
         height: 100vh;
         grid-template-columns: 100%;
+        grid-template-rows: 20% auto auto auto auto auto auto auto;
         position: fixed;
         transform: translateX(-120%);
         background-color: blueviolet;
         transition: .5s ease-in-out;
         z-index: 9;
+        overflow: scroll;
     }
     .menu .content{
         padding: 10px 0px;
@@ -135,11 +125,13 @@
         width: 60%;
         height: 100vh;
         grid-template-columns: 100%;
+        grid-template-rows: 20% auto auto auto auto auto auto auto;
         position: fixed;
         transform: translateX(-120%);
         background-color: blueviolet;
         transition: .5s ease-in-out;
         z-index: 9;
+        overflow: scroll;
     }
     .menu .content{
         padding: 10px 0px;
